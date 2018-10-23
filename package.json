@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@babel/core": "^7.1.2"
+  },
+  "name": "babel-plugin-for-yield-as-do-while",
+  "description": "Hijacks `do`/`while` statements with bitwise left shift (`<<`) to implement the `for`/`yield` syntax we all know and love :heart: from [scala](https://docs.scala-lang.org/tutorials/FAQ/yield.html).",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pfgray/for-yield-as-do-while.git"
+  },
+  "author": "Paul Gray",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pfgray/for-yield-as-do-while/issues"
+  },
+  "homepage": "https://github.com/pfgray/for-yield-as-do-while#readme"
+}
